@@ -1,0 +1,47 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#appContainer{
+  /* height: 2500px; */
+}
+
+#contentContainer{
+  /* padding-top: 60px; */
+  margin-top: 52.67px;
+}
+
+.section{
+  margin: 25px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  /* margin-top: 30px; */
+  padding: 50px;
+  height: 600px;
+  background-color: #5b20593b;
+  border-radius: 25px;
+}
+
+/* Welcome */
+
+#welcome{
+  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  /* border-top: #5b20596f solid 60px;
+  border-bottom: #5b20596f solid 60px; */
+  
+}
+
+#picOfMe{
+  width: 300px;
+  /* height: 400px; */
+  border-radius: 50%;
+  
+}
+
+#description{
+  /* margin-left: 5%; */
+  
+}
