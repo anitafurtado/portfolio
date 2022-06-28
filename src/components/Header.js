@@ -16,46 +16,13 @@ const theme = createTheme({
 
 
 function Header({inProgress, inSection}) {
-  
-  // const navActiveChange = () => {
-
-  // }
-  // const handleScroll = () => {
-  //   console.log("is this being called")
-  //   if(inSection === "welcome"){
-  //       console.log("ok");
-  //       let currentActiveLink = document.getElementsByClassName("activeNav");
-  //       currentActiveLink[0].className = "link notActiveNav";
-  //       document.getElementById("welcome").className = "link activeNav";
-  //     }
-  //     else if(inSection === "aboutMe"){
-  //       // console.log("ok2");
-  //       let currentActiveLink = document.getElementsByClassName("activeNav");
-  //       currentActiveLink[0].className = "link notActiveNav";
-  //       document.getElementById("aboutMe").className = "link activeNav";
-  //     }
-  //     else if(inSection === "projExtra"){
-  //       // console.log("ok");
-  //       let currentActiveLink = document.getElementsByClassName("activeNav");
-  //       currentActiveLink[0].className = "link notActiveNav";
-  //       document.getElementById("projExtra").className = "link activeNav";
-  //     }
-  //     else if(inSection === "contact"){
-  //       // console.log("ok");
-  //       let currentActiveLink = document.getElementsByClassName("activeNav");
-  //       currentActiveLink[0].className = "link notActiveNav";
-  //       document.getElementById("contact").className = "link activeNav";
-  //     }
-  // };
 
   useEffect(() => {
    
     let navLinks = document.getElementsByClassName('link');
    
     for(let i=0; i<navLinks.length; i++){
-      console.log("here");
       navLinks[i].addEventListener("click", function() {
-        // console.log("does this run")
         let currentActiveLink = document.getElementsByClassName("activeNav");
         currentActiveLink[0].className = "link notActiveNav";
         this.className = "link activeNav";

@@ -13,6 +13,7 @@
   /* background-color: #3C153B; */
   margin: 5px 0 0 0;
   padding: 10px 0;
+ 
 }
 
 .linkWrapper{
@@ -23,6 +24,7 @@
   /* padding: 0; */
   display: inline;
   /* color: black; */
+  
 
 }
 
@@ -32,6 +34,7 @@
   
   padding: 10px 20px;
   border-radius: 20px;
+  
 }
 
 .activeNav {
